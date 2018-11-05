@@ -1,0 +1,32 @@
+.container {
+  background-color:;
+}
+
+.col1, .col2 {
+  width:45%
+}
+.col3 {
+  width:100%
+}
+
+@media screen and (max-width:460px){
+  .col1, .col2, .col3 {
+    float=none;
+    width:100%;
+
+  }
+
+  section{
+    padding:2px;
+  }
+
+}
+/* Why isn't this working? Check for how to get rid of previous conditions maybe*/
+@media screen and (max-width:760px){
+  body{background-color:orange;}
+  p{
+    text-align: center;
+
+  }
+section: 100%
+}
